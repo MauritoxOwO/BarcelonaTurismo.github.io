@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3d2c1;
+}
+section{
+    background-color: #fef6e4;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+.container {
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horario{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.estacion{
+    margin: 5px auto;
+
+}
+
+header{
+    font-family: 'Palanquin Dark', sans-serif;
+    margin-top: 10px;
+    text-align: center; 
+}
+
+h3{
+    margin-bottom: 10px;
+    font-family: 'Palanquin Dark', sans-serif;
+    border-bottom: 1px solid #f582ae;
+}
+
+h4{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Palanquin Dark', sans-serif;
+    border-bottom: 1px solid #f582ae;
+}
+
+.web{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.text{
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+/* imagenes */
+.container img {
+    width: 45%;
+    padding: 16px;
+    float: left;
+}
+
+.container .text {
+    width: 45%;
+    padding: 16px;
+    float: left;
+}
+
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.principal{
+    background-color: #f3d2c1;
+}
+
+@media (max-width: 720px) {
+    
+    .container {
+        width: 100%;
+        padding: 16px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container img {
+        width: 100%;
+        padding: 16px;
+        float: none;
+    }
+
+    .container .text {
+        width: 100%;
+        padding: 16px;
+        float: none;
+    }
+
+    .container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+@media (max-width: 390px) {
+    /* Styles for screens with a maximum width of 390 pixels */
+
+    .container {
+        width: 100%;
+        padding: 14px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container img {
+        width: 100%;
+        padding: 16px;
+        float: none;
+    }
+
+    .container .text {
+        width: 100%;
+        padding: 14px;
+        float: none;
+    }
+
+    .container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    header{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    h4{
+        font-size: 14px;
+    }
+
+    .web{
+        font-size: 12px;
+    }
+
+    .text{
+        font-size: 12px;
+    }
+
+    .estacion{
+        margin: 0px;
+    }
+}
+
