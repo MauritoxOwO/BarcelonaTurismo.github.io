@@ -1,1 +1,1 @@
-# Aquí iria un archivo PHP
+Aquí iria un archivo PHP
