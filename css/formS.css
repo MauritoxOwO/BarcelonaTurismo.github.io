@@ -74,6 +74,13 @@ input[type="date"] {
     border: 1px solid #f582ae;
 }
 
+select{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f582ae;
+}
+
 input[type="submit"] {
     width: 100%;
     padding: 10px;
