@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.inline{
+    display: inline;
+}
+
+body {
+    background-color: #f3d2c1;
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fef6e4;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+label{
+	margin-top: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Palanquin Dark', sans-serif;
+    margin-bottom: 20px;
+}
+
+.sub {
+    margin-bottom: 20px;
+}
+
+.origen, input[type="date"], .lugar {
+    margin-bottom: 10px;
+    width: 38.3vw;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f582ae;
+    margin-top: 10px;
+    background-color: white;
+}
+
+
+textarea {
+    margin-bottom: 10px;
+    border: 1px solid #f582ae;
+    border-radius: 5px;
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"], .boton{
+    display: inline;
+    margin-top: 10px;
+}
+
+.botones{
+    margin-bottom: 15px;
+}
+
+input[type="radio"]{
+    border: 1px solid;
+}
+
+input[type="text"],
+input[type="email"]{
+	width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f582ae;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #f582ae;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #f6b4d4;
+}
+
+.principal{
+    background-color: #f3d2c1;
+}
+
+@media (max-width: 720px) {
+
+    textarea {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"], .origen {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #f582ae;
+    }
+
+    form {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        background-color: #fef6e4;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #f582ae;
+    }
+        textarea {
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        form {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fef6e4;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+    
+    }
