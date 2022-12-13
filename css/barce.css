@@ -293,7 +293,7 @@ a {
 
 
 
-@media (max-width: 390px) {
+@media (max-width: 420px) {
 
     /*card*/
     .container {
@@ -354,5 +354,19 @@ a {
         transition: all 400ms ease;
         margin-bottom: 5px;
     }
+    
+        
+.titulo{
+    background-image: url("../img/barceM2.jpg");
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #000;
+}
+
+.subt{
+	font-size: 20px;
+	padding-top: 5px;
+}
 
 }
